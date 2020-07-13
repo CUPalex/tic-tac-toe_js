@@ -6,21 +6,37 @@ section {
     text-align: center;
 }
 
+.game--win {
+    display: grid;
+    grid-template-rows: 156px;
+    width: 156px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+    border: 3px solid #333333;
+}
+
+.big--game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 486px;
+    margin: 50px auto;
+}
+
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 306px;
-    margin: 50px auto;
+    width: 156px;
+    border: 3px solid #333333;
 }
 
 .cell {
     font-family: "Permanent Marker", cursive;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     box-shadow: 0 0 0 1px #333333;
     border: 1px solid #333333;
     cursor: pointer;
 
-    line-height: 100px;
-    font-size: 60px;
+    line-height: 50px;
+    font-size: 30px;
 }
