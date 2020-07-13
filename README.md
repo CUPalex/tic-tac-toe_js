@@ -1,6 +1,4 @@
 # Tic-Tac-Toe
-Repository for a [Dev.to article](https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn)
+Repository cloned from [this](https://github.com/BornaSepic/Tic-Tac-Toe) and modified into another version of tic-tac-toe as a tiny study js project.
 
-#### Typescript
-If you're interested in a type supported version of the game checkout the `typescript` branch and follow the instructions from there.
 
