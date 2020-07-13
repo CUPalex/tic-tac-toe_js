@@ -88,8 +88,11 @@ function handleResultValidation(clickedBigCell, clickedBigCellIndex, clickedCell
 
     let roundDraw = !gameState[clickedBigCellIndex].includes("");
     if (roundDraw) {
-        currentCell = -1;
         bigGameState[clickedBigCellIndex] = "D";
+    }
+
+    if (bigGameState[currentCell] !== "") {
+        currentCell = -1;
     }
 
     let bigRoundDraw = !bigGameState.includes("");
